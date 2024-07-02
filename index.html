@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>lakshay profile</title>
+
+	<!--favicon-->
+	<link rel="icon" type="image/png" href="C:\Users\ibirds\Desktop\chetan\logo5.0.png">
+
+	<!--bootstrap cdn lines-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+	<!--custom files lines-->
+
+	<!-- <link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css"> -->
+
+  <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<style type="text/css">
+	
+
+	*
+	{
+
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'lobster';
+/*		background-color: black;*/
+	/*background-image: url("https://i.gifer.com/HKVW.gif");
+*/	}
+
+
+body
+	{
+		color: #ededed;
+	
+			
+		background-image: url("https://i.gifer.com/HKVW.gif");
+	}
+
+	.nav-item:hover
+	{
+		color: #0ef;
+}
+.header
+	{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background: #051129;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		z-index: 100;
+
+	}
+	.header:hover{
+		color: cyan;
+	}
+
+
+.logo
+	{
+	   position: relative;
+	   font-size: 25px;
+	   color: #fff;
+	   text-decoration: none;
+	   font-weight: 600;
+	   cursor: default;
+	   opacity: 0;
+	   animation:slideright 1s ease forwards;
+
+	}
+	.navbar a 
+	{
+		display: inline-block;
+		font-size: 25px;
+		color: #fff;
+		text-decoration:none;
+		font-weight: 400;
+		margin-left: 35px;
+		transition: .3s;
+		opacity: 0;
+		animation:slidetop 2s ease forwards;
+		animation-delay: calc(.3s * var(--i));
+	}
+
+.navbar a:hover
+	{
+		color: #0ef;
+		border: 2px;
+		border-color: cyan;
+		text-shadow: 39px;
+		background-attachment: url("https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/w/o/WOPA160517_D056-resized.jpg?crop=864%2C0%2C1728%2C2304&wid=600&hei=800&scl=2.88");
+
+}
+.home
+	{
+		position: relative;
+		width: 100%;
+		justify-content: space-between;
+		height: 100vh;
+		background:#081b29/WhatsApp Image 2024-01-07 at 8.43.52 PM - Copy; 
+		background-size: cover;
+		background-position: center;
+		display: flex;
+		align-items: center;
+		padding: 0px 0% 0;
+
+	}
+
+.home-content
+	{
+		max-width: 600px;
+	}
+
+
+.home-content h3
+	{
+		margin-top: 0px;
+		font-size: 32px;
+		font-weight: 700;
+		opacity: 0;
+		animation: slideBottom 1s ease forwards;
+		animation-delay:  .7s;
+	}
+
+
+.home-content h3:nth-of-type(2)
+	{
+		margin-bottom: 10px;
+		animation: slidetop 1s ease forwards;
+		animation-delay: .7s;
+	}
+
+.home-content h3 span
+	{
+		color: #0ef;
+	}
+
+
+.home-content h1
+	{
+		font-size: 56px;
+		font-weight: 700;
+		margin: -3px 0;
+		opacity: 0;
+	   animation:slideright 1s ease forwards;
+	   animation-delay: 1s;
+	}
+
+.home-content p
+	{
+		font-size: 20px;
+		opacity: 0;
+	    animation:slideleft 1s ease forwards;
+	    animation-delay: 1s;
+	}
+.home-sic a
+	{
+		display: inline-flex;
+		justify-content: center;
+		align-items:center;
+		width: 50px;
+		height: 40px;
+		background: transparent;
+		border: 2px solid #0ef;
+		border-radius: 50%;
+		font-size: 20px;
+		color: #0ef;
+		opacity: 0;
+		animation: slideleft 1s ease forwards;
+		animation-delay:calc(.2s * var(--i));
+		transition: .5s ease ;
+		text-decoration: none;
+		margin: 10px 15px 30px 0;
+	}
+
+.home-sic a:hover
+	{
+		background-color: whitesmokes;
+		background: #0ef;
+		color: #081b29;
+		box-shadow: 0 0 20px #0ef;
+	}
+	.btn-box
+	{
+	
+		display: inline-block;
+		padding: 13px 28px;
+		background: #0ef;
+		border-radius: 40px;
+		font-size: 16px;
+		color: #081b29;
+		letter-spacing: 1px;
+		text-decoration: none;
+		font-weight: 600;
+		opacity: 0;
+		animation: slideleft 1s ease forwards;
+		animation-delay: 2s;
+		box-shadow: 0 0 5px #0ef,0 0 25px #0ef;
+	}
+.btn-box:hover
+	{
+		box-shadow: 0 0 5px cyan,0 0 25px cyan,0 0 50px cyan,0 0 100px cyan,0 0 200px cyan ;
+    }
+
+
+
+    /*.btn-box1
+	{
+	
+		display: inline-block;
+		padding: 0px;
+		background: #0ef;
+		border-radius: 100%;
+		font-size: 16px;
+		color: #081b29;
+		letter-spacing: 0px;
+		text-decoration: none;
+		font-weight: 600;
+		opacity: 0;
+		animation: slideleft 1s ease forwards;
+		animation-delay: 2s;
+		box-shadow: 1 0 5px #0ef,1 0 25px #0ef;
+	}
+.btn-box1:hover
+	{
+		box-shadow: 0 0 5px cyan,0 0 25px cyan,0 0 50px cyan,0 0 100px cyan,0 100px cyan ;
+    }*/
+    .About-text h2
+{
+	font-size: 80px;
+}
+.About-text h2 span 
+{
+	color: #0ef;
+}
+.About-text p
+{
+	margin-top: 0px;
+}
+.png {
+	margin-top: 00px;
+}
+
+	@keyframes slideright
+	{
+	 	0%{
+	 		transform:translateX(-100px);
+	 		opacity: 0;
+		}
+		100%{
+			transform: translateX(0px);
+			opacity: 1;
+		}
+	}   
+	 @keyframes slidetop
+	{
+	 	0%{
+	 		transform:translateY(100px);
+	 		opacity: 0;
+		}
+		100%{
+			transform: translateY(0px);
+			opacity: 1;
+		}
+	}
+	@keyframes slideBottom
+	{
+	 	0%{
+	 		transform:translateY(-100px);
+	 		opacity: 0;
+		}
+		100%{
+			transform: translateY(0px);
+			opacity: 1;
+		}
+	}
+	@keyframes slideleft
+	{
+	 	0%{
+	 		transform:translateX(-100px);
+	 		opacity: 0;
+		}
+		100%{
+			transform: translateX(0px);
+			opacity: 1;
+		}
+	}
+	@media (max-width:991px){
+
+	section{
+		padding: 30px 0;
+	}
+	h2{
+		font-size: 30px;
+		line-height: 40px;
+	}
+	h3{
+		font-size: 20px;
+	}
+
+	.header-scrolled{
+		height: auto;
+	}
+	.header_wrapper .menu-navbar-nav{
+		text-align: center;
+	
+		padding-bottom:15px;
+
+	}
+	.header_wrapper .nav-item .nav-link{
+		margin-top:0px;
+	}
+	.banner-wrapper{
+		padding: 2px 0;
+	}
+	.about-wrapper ul .nav-pills{
+		width: 61%;
+		margin: auto;
+	}
+}
+
+@media (max-width:767px){
+	h1{
+		font-size: 40px;
+		line-height: 48px;
+	}
+	h2{
+		font-size:25px;
+	}
+	p{
+		font-size: 13px;
+		line-height: 24px;
+	}
+	.about-wrapper ul .nav-pills{
+		width: 100%;
+		margin: auto;
+		border: 0;
+	}
+	.about-wrapper ul li .nav-link{
+		font-size: 13px;
+		
+	}
+}
+:root
+{
+  --primary-color:#0fff;
+  --secondary-color:#081b29;
+  --bg-dark-blue: #081b29;
+  --bg-white:#081b29;
+  --gray-color:#c6c9d8bf;
+  --gradient-color:linear-gradient(-224deg,var(--primary-color)0,#337DFF 100%);
+  --gradient-text:linear-gradient(120deg,#1C99FE 20.69%, #7644FF 50.19%,var(--primary-color)79.69%);
+  filter: progid:DXImageTransform.microsoft.gradient(starcolorstr='var(--primary-color)',endcolorstr='var(--secondary-color)',gradient-type=1);
+  
+  /*text color */
+  --primary-font:'poppins',sans-serif;
+  --primary-text:#FD4766;
+  --text-gray:#c6c9d8bf;
+  --text-white:#fff;   
+}
+body
+{
+  font-family: var(--primary-font);
+  background-color: var(--secondary-color);
+}
+a {
+  text-decoration: none;
+}
+::-webkit-scrollbar{
+  width:6px;
+}
+::-webkit-scrollbar-track{
+  background: var(--bg-dark-blue);
+}	
+::-webkit-scrollbar-thumb{
+  background: var(--primary-color);
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+  -webkit-appearance:none;
+  margin:0;
+}
+section
+{
+  padding: 0px 0;
+}
+.main-btn{
+  display: inline-block;
+  border-radius: 0px;
+  transition: all .4s ease-in-out;
+ 
+  background-color: transparent;
+  border:2px solid var(--gray-color);
+  color:var(--text-gray);
+  font-weight: 500;
+  font-size:14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+.main-btn:hover{
+  background-color: var(--primary-color);
+  border-color:var(--primary-color);
+  color:var(--text-white);
+}
+
+h1 span{
+  color: var(--primary-color);
+}
+h2
+{
+  font-size: 50px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: var(--text-white);
+  margin-bottom: 5px;
+}
+h3
+{
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-white);
+  margin-bottom: 19px;
+}
+h6
+{
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: block;
+  color: var(--text-gray);
+  margin-bottom: 20px;
+}
+p
+{
+  color: whitesmoke;
+  font-size:16px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.subtitle{
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 18px;
+  font-size: 16px;
+  margin-bottom: 12px;
+  background: var(--gradient-color);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.subtitle1{
+  display: inline-block;
+  font-weight: 600px;
+  /*letter-spacing: 0.2px;*/
+  line-height: 18px;
+  font-size: 20px;
+  margin-bottom: 12px;
+  background: var(--gradient-color);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+input:hover,
+inpit:focus,
+textarea:focus,
+textarea:hover,
+button{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/*navbar*/
+.header_wrapper .navbar{
+  padding: 0px 0;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  -webkit-transition:all .2s linear;
+}
+
+.header_wrapper .navbar-brand img{
+  max-width: 50px;
+  height: auto;
+}
+.header_wrapper .navbar-toggler{
+  border:0;
+  color: var(--gray-color);
+  line-height: 2;
+}
+.header_wrapper .navbar-toggler:focus{
+  box-shadow: none;
+}
+.header_wrapper .nav-item{
+  margin:0 10px;
+}
+.header_wrapper .nav-item .nav-link{
+  position:relative;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-gray);
+  display: inline-block;
+}
+.header_wrapper .nav-item .nav-link::after{
+  position: absolute;
+  content: '';
+  left:0;
+  width:0;
+  height: 2px;
+  background:var(--primary-color) ;
+  transition: 0.3s;
+  bottom: 0;
+}
+.header_wrapper .nav-item .nav-link.active::after,
+.header_wrapper .nav-item .nav-link:hover::after{
+  width: 100%;
+}
+.header_wrapper .nav-item .nav-link.active,
+.header_wrapper .nav-item .nav-link:hover{
+  color: var(--text-white);
+}
+.header-scrolled{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background-color: var(--bg-dark-blue);
+  -webkit-box-shadow:0 4px 6px rgba(12,0,46,.05);
+  box-shadow: 0 4px 6px rgba(12, 0, 46, .05);
+}
+.header-scrolled .nav-item .nav-link.active,
+.header-scrolled.nav-item .nav-link:hover{
+  color: var(--primary-color);
+}
+.banner-wrapper{
+  width:100%;
+  height: auto;
+  min-height: 150px;
+  background-image: url("bg4.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment:fixed;
+  padding: 20px 0 100px 0;
+}
+.about-img{
+  width: 400px;
+  height: 450px;
+  filter: drop-shadow(5px 5px 100px var(--primary-color));
+}
+
+.about-wrapper ul.nav-pills{
+  border: 1px solid var(--gray-color);
+  border-radius: 50px;
+}
+.about-wrapper ul li .nav-link{
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.45s cubic-bezier(0,0,0.2,1);
+  display: inline-block;
+  color: var(--text-gray);
+  border: 0;
+
+}
+.about-wrapper ul li .nav-link.active{
+  background-color: var(--primary-color);
+  align-items: center;
+}
+.about-wrapper .single-progress{
+  margin-top: 0px;
+  position:relative;
+  overflow: hidden;
+}
+.about-wrapper .single-progress .progress{
+  height: 4px;
+  border-radius: 4px;
+  box-shadow: none;
+  background-color: var(--bg-white);
+  overflow: visible;
+  align-items: center;
+
+
+}
+.about-wrapper .single-progress .progress-bar{
+  background-image: var(--gradient-color);
+
+}
+.about-wrapper .single-progress h6{
+  text-align:center;
+
+}
+.about-wrapper .single-progress .label{
+  position: absolute;
+  right: 0;
+  top: 0;
+  align-items: center;
+  color: var(--text-gray);
+  font-size: 15px;
+}
+.about-wrapper .tab-pane li{
+  color: var(--text-gray);
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  list-style: none;
+}
+.about-wrapper .tab-pane li a{
+  font-weight: 500;
+  display: block;
+  color: var(--text-gray);
+}
+.services-wrapper .card{
+  background-image: url("https://i.gifer.com/HKVW.gif");
+  cursor: pointer;
+  transition: transform 0.65s cubic-bezier(0.05,0.2,0.1,1);
+  box-shadow: 0.05s cubic-bezier(0.05,0.2,0.1,1);
+  background-color: black;
+}
+.services-wrapper .card:hover{
+  box-shadow: 0px 0px 10px 0 cyan;
+  transform: translatey(-30px);
+}
+
+.icon{
+  font-size: 40px;
+  color:ghostwhite;
+}
+.icon:hover{
+	color: cyan ;
+	
+}
+
+
+.hobbies-wrapper .card{
+  background-color: transparent;
+  border:2px solid var(--gray-color);
+  cursor: pointer;
+  animation: movebounce 2s;
+  filter: grayscale(100%);
+
+}
+.hobbies-wrapper .card:hover{
+  background-color: var(--bg-dark-blue);
+  box-shadow: 2px 2px 25px 0.2px var(--gray-color);
+  transform: translateY(-4px);
+  filter: none;
+  transition: all 1s;
+
+
+}
+.hobbies-wrapper .card i,img{
+  font-size: 30px;
+  color: var(--text-gray);
+
+}
+
+/*GALLERY*/
+.gallery-wrapper img{
+  width: 250px;
+  height: 250px;
+  border: 0px;
+ background-image: url("https://i.gifer.com/HKVW.gif");
+  border: 0px; 
+  color: cyan;
+}
+.gallery-wrapper img:hover{
+  						
+  color: cyan;
+  background-image: url("https://i.gifer.com/HKVW.gif");
+}
+
+
+.gallery-wrapper ul.nav-pills{
+  background-image: url("https://i.gifer.com/HKVW.gif");
+  border-radius: 0px;
+  border: 0px; color: cyan;
+}
+.gallery-wrapper ul li .nav-link{
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.45s cubic-bezier(0,0,0.2,1);
+  display: flex;
+  background-image: url("https://i.gifer.com/HKVW.gif");
+  border: 0;
+ border: 0px; color: cyan;
+}
+.gallery-wrapper ul li .nav-link.active{
+  background-image: url("https://i.gifer.com/HKVW.gif");
+  border: 0px; 
+  color: cyan;
+}
+.contact-wrapper .form-control,	
+.contact-wrapper textarea{
+  background-color: transparent;
+  border-color: var(--gray-color);
+  color: var(--text-gray);
+  font-size: 19px;
+  font-weight: 700;
+  padding: 10px 20px;
+
+}
+.contact-wrapper .form-control:hover,
+.contact-wrapper textarea:hover,
+.contact-wrapper .form-control:focus,
+.contact-wrapper textarea:focus{
+  border-color: var(--primary-color);
+  color: var(--text-white);
+}
+.contact-wrapper .call-details{
+  color: var(--text-gray);
+
+}
+.contact-wrapper .call-details a{
+  font-weight: 700;
+  color: var(--text-gray);
+}
+.contact-img{
+    width: 400px;
+    height: 450px;
+    filter: drop-shadow(5px 5px 15px var(--gray-color));
+}
+.footer-wrapper{
+  background-color: var(--bg-dark-blue);
+  padding: 20px 0;
+}
+.footer-wrapper .footer-logo img{
+  width: 100px;
+  height: 100px;
+}
+.footer-wrapper .social-icon li{
+  margin: 6px;
+}
+.footer-wrapper .social-icon a{
+  width: 35px;
+  height: 35px;
+  line-height: 32px;
+  font-size: 30px;
+  display: inline-block;
+  color: var(--text-gray);
+  text-align: center;
+  border-radius: 100%;
+  -webkit-transition: all 0.23s cubic-bezier(0.645,0.045,0.355,1);
+  transition: all 0.23s cubic-bezier(0.645,0.045,0.355,1);
+}
+.footer-wrapper .social-icon a:hover{
+  background-color: var(--bg-dark-blue);
+  color:var(--primary-color);
+  text-shadow: 0 10px 15px 0 rgb(0 0 0 / 10%);
+  transform: translateY(-3px);
+}
+.footer-wrapper .copyright-text{
+  font-size: 800px;
+  line-height: 20px;
+}
+.footer-wrapper .copyright-text a{
+  color: var(--primary-color);
+}
+#c{
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	margin-top: -40px;
+}
+.sub-title{
+	text-align: center;
+	font-size: 60px;
+}
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
+</style>
+<!-- <body>
+<div class="parallax"></div>
+
+<div style="height:1000px;background-color:red;font-size:36px">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+</body> -->
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75"background-image: url(https:\\i.gifer.com\HKVW.gif) >
+	
+
+<!--navbar section-->
+
+	  <header class="header_wrapper" style="background-image: url(https://i.gifer.com/HKVW.gif)">
+
+		<nav class="navbar navbar-expand-lg fixed-top " style="background-image: url(https://i.gifer.com/HKVW.gif)">
+  <div class="container">
+
+	<a class="navbar-brand" href="#">
+     <img src="Images\image1.png">
+     </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="bi bi-list" style="color:white;background-image: url(https://i.gifer.com/HKVW.gif)"></i>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav menu-navbar-nav" id="navbar">
+      		
+
+			<nav class="navbar" style="background-image: url(https://i.gifer.com/HKVW.gif);">
+			<a href="#home" style="--i:1;background-image: url(https://i.gifer.com/HKVW.gif);" class="active"> Home</a>
+			<a href="#About" style="--i:2;background-image: url(https://i.gifer.com/HKVW.gif);"class="active"> About</a>
+			<a href="#Services" style="--i:3;background-image: url(https://i.gifer.com/HKVW.gif);"class="active"> Services</a>
+			<a href="#Resume" style="--i:4;background-image: url(https://i.gifer.com/HKVW.gif);"class="Resume"> Resume</a>
+			<a href="#Gallary" style="--i:5;background-image: url(https://i.gifer.com/HKVW.gif);"class="active"> Gallary</a>
+			<a href="#Contact" style="--i:6;background-image: url(https://i.gifer.com/HKVW.gif);"class="active"> Contact</a>	
+			</nav>
+        
+        
+      </ul>
+    </div>
+
+  </div>
+</nav>
+  </header>
+
+ <!-- ========================================================banner section================================================================== -->
+
+
+  <section id="home" class="banner-wrapper">
+  	<div class="parallax"></div>
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-sm-5 justify-content-center mb-4 mb-lg-0 ">
+        	 <div class="png" style="  background: transparent;  margin-top: 70px;border-radius: 100%; border-color: cyan;"  >
+              <a class="btn-box1"><img src="Images/image2.png" id="c" class="img-fluid rounded-3"></a>
+            </div> 
+
+            	 
+        		
+        			 <div class="my-4 mb-lg-0"></div></div>	
+
+				<div class="home-content">
+
+        		<h3 style="margin-top: 70px;">Hello , It's Me</h3>
+
+			<h1>Lakshay Kumawat</h1>
+			<h3>And I'm a <span class="text"> </span></h3>
+			<p style="color:whitesmoke;font-family:Calibri;">As a fresher in the ever increasing world of technology and with the quench of learning something new , I made the transition into the world of Web-Development.
+				With the start of my Tech-World journey , I am working each day to become a proficient problem solver.
+				In my initial journey I am working on frontend web development . So far I have covered HTML , CSS , Bootstrap and working on its practical aspects and implications.
+				My eagerness & ability to collaborate with others make me a valuable asset to any team.
+			</p>
+
+
+          
+          <div class="mt-5">
+            <div class="home-sic">
+				<a href="https://www.adaniinfra.com/" style="--i:6"><i class='bx bxl-facebook'></i></a>
+				<a href="https://www.instagram.com/kumawatlakshay20060/" style="--i:7"><i class='bx bxl-instagram'></i></a>
+				<a href="https://www.adaniinfra.com/" style="--i:8"><i class='bx bxl-whatsapp' ></i></a>
+				<a href="https://www.adaniinfra.com/" style="--i:9"><i class='bx bxl-twitter' ></i></a>
+			</div>
+
+
+
+
+
+
+
+			<a  class="btn-box" style="color:black;">More About Me</a>
+
+		</div>
+          </div>
+        </div>
+        </div>
+    </div>
+</div>
+    </div>
+  </section>
+
+
+  <!------------------------------------------------about section---------------------------------------->
+
+  <section id="About" class="about-wrapper">
+    <div class="container"> 
+          <div class="row justify-content-between align-items-center">
+            <div class="col-sm-5 justify-content-center mb-4 mb-lg-0">
+            	<div class="png">
+              <img src="https://i.gifer.com/origin/f1/f1c839d0b1fd57dd8ee99936bfe7ecc8_w200.gif" class="img-fluid rounded-3" />
+            </div>
+        </div>
+            <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+
+              <div class="my-3 mb-lg-0">
+              		<div class="About-text">
+                
+               <h2 >About<span> Me</span></h2>
+
+
+                	<p style="color:whitesmoke;font-family:Calibri;">"I'm Lakshay Kumawat . I am a fullsatck devloper.As a Full Stack Developer, I thrive in the dynamic world of web development, seamlessly navigating both frontend and backend technologies.</br> My expertise includes crafting intuitive user interfaces that captivate users and robust backend systems that ensure optimal functionality. With a passion for problem-solving, I excel in collaborating with cross-functional teams to deliver innovative and scalable solutions. My skills extend across a spectrum of programming languages, frameworks, and databases, making me well-equipped to tackle diverse challenges in the ever-evolving landscape of technology."</p>
+              		</div>
+
+          	</div>
+              <div class="pt-4">
+   <!--=======================================================nav tabs========================================================================-->
+   <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab" role="tablist">
+
+                  <li class="nav-item" role="presentation"> 
+                   <button class="nav-link active" id="pills-personal-tab" data-bs-toggle="pill" data-bs-target="#pills-personal" type="button" role="tab" aria-controls="pills-personal" aria-selected="false">Personal Info</button>
+                  </li>
+
+                  <!-- <li class="nav-item" role="presentation">
+                     <button class="nav-link" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="true">Main skills</button>
+                  </li>
+
+                 <li class="nav-item" role="presentation">
+                   <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill" data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education" aria-selected="false">education</button>
+                 </li> -->
+
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent" style="text-align: center;">
+
+                <div class="tab-pane fade show active" id="pills-personal" role="tabpanel" aria-labelledby="pills-personal-tab" tabindex="0">
+                  <ul class="text-start ps-0 " type="none">
+                   <li>Name<span>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   Lakshay Kumawat</span></a></li>
+                 </ul>
+                 <ul class="text-start ps-0">
+                   <li><a href="#">F.Name<span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Santosh Kumawat</span></a></li>
+                 </ul>
+                 
+                 <ul class="text-start ps-0">
+                 </ul>
+                 <ul class="text-start ps-0">
+                   <li><a href="#">Phone No.<span>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9216430065</span></a></li>
+                 </ul>
+                 <ul class="text-start ps-0">
+                   <li><a href= "#">Email ID<span> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  Lakshaykumawta10@gmail.com</span></a></li>
+                 </ul>
+                 <ul class="text-start ps-0">
+                   <li><a href="#">ADD<span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Thanwala,Ajmer Road,Rajasthan</span></a></li>
+                 </ul>
+
+                
+                </div>
+
+               <!-- <div class="tab-pane fade " id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab" tabindex="0">
+                 <div class="single-progress">
+                   <h6>c-programing</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width:95%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="label">95%</span>
+                 </div>
+                 <div class="single-progress">
+                   <h6>html</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width:90%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="label">90%</span>
+                 </div>
+                 <div class="single-progress">
+                   <h6>bootstrap</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="label">85%</span>
+                 </div>
+                 <div class="single-progress">
+                   <h6>css</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width:80%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="label">80%</span>
+                 </div>
+               </div> -->
+
+              
+              <!--  <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab" tabindex="0">
+                 <ul class="text-start ps-0" type="none">
+                 </ul>
+                 <ul class="text-start ps-0">
+                   <li><a href="#">10th<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Raghukul.Bal.Nikitan.Sen.Sec.School Thanwala</span> </a> 2020</li>
+                 </ul>
+                 <ul class="text-start ps-0">
+                   <li><a href="#">BCA 1st year<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Star Infotech College</span></a> 2023-24</li>
+                 </ul>
+                 <ul class="text-start ps-0">
+                   <li><a href="#">Tally<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From IT campus</span></a> 2023</li>
+                 </ul>
+                 <ul class="text-start ps-0">
+                   <li><a href="#">RS-CIT<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From Jawahar Computer Sansthan Thanwala</span></a> 2023</li>
+                 </ul>
+
+               </div>
+ -->
+            </div>
+                <!--nav tabs end-->
+              </div>
+            </div>
+          </div>
+          <span class="subtitle" style="text-align: center;">-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</span>
+    </div>
+
+  </section>
+ <!--=======================================================servise section================================================================= -->
+ 
+  <section class="services-wrapper" id="Services">
+    <div class="container">
+      <h1 class="sub-title">My<span>services</span></h1>
+      <div class="services-list">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-4">
+          <span class="subtitle">what i can do for you</span>
+          <h4>My Awesome Service</h4>
+          
+        </div>
+      </div>
+
+      <div class="row" align="center">
+            <div class="col-lg-4 mt-sm-3">
+                 <div class="card">
+                    <div class="card-body text-md-start text-center">
+                        <i class="bi bi-cast icon"></i>
+                        <h3 style="color:cyan;">Web Devlopement</h3>
+                        <p> I am Good programmer with extensive experience building user-facing applications. Efficient and knowledgeable coder with skills in HTML, CSS, Bootstrap programming languages.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 mt-sm-3">
+                <div class="card">
+            <div class="card-body text-md-start text-center">
+             <i class="bi bi-bank icon"></i>
+              <h3 style="color:cyan;">Business and Marketing</h3>
+              <p> My goal of marketing is to draw the consumers’ attention to the company’s products and create a relationship with existing customers and give good benifit to company.</p>
+            </div>
+          </div>
+            </div>
+            <div class="col-lg-4 mt-sm-3">
+                <div class="card" >
+            <div class="card-body text-md-start text-center">
+              <i class="bi bi-book icon"></i>
+              <h3 style="color:cyan;">Business ideas</h3>
+              <p> 1.&nbsp; Business model.</br>
+              		2.&nbsp; Marketing and sales strategy.</br>
+            			3.&nbsp; The competition.</br>
+          				4.&nbsp; Implementation plan.</br>
+              	  5.&nbsp; Company Information. </p>
+            </div>
+          </div>
+            </div>
+      </div>
+  </section>
+
+
+
+  <!--=======================================================Resume section================================================================= -->
+ 
+  <section class="services-wrapper" id="Resume">
+    <div class="container">
+    	<span class="subtitle" style="text-align:center;">------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</span>
+      <h1 class="sub-title">My<span>Resume</span></h1>
+      <div class="services-list">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-4">
+        	<span class="subtitle1">Some Skill I Have</span>
+          
+         
+          
+        </div>
+      </div>
+
+      <div class="row" align="center">
+            <div class="col-lg-4 mt-sm-3">
+                 <div class="card">
+                    <div class="card-body text-md-start text-center">
+                       <i class="bi bi-book icon"></i>
+                        <h3>Senior Secondary (12th)</h3>
+                        <p> SCHOOL:&nbsp; Government Senior Secondary 
+							YEAR:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2023
+
+							SUBJECTS:&nbsp; PCM
+							PERCENTAGE:&nbsp; 70%</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 mt-sm-3">
+                <div class="card">
+            <div class="card-body text-md-start text-center">
+             <i class="bi bi-backpack3 icon"></i>
+              <h3>Secondary Education (10th)</h3 >
+              <p>SCHOOL:&nbsp; Government Senior Secondary 
+							YEAR:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2021</br>
+
+							
+							PERCENTAGE:&nbsp; 95% </p>
+            </div>
+          </div>
+            </div>
+            <div class="col-lg-4 mt-sm-3">
+                <div class="card" >
+            <div class="card-body text-md-start text-center">
+              <i class="bi bi-building icon"></i>
+              <h3>STRENTHS</h3>
+              <p> 1.&nbsp;&nbsp;	Problem Solving</br>
+				  2.&nbsp;&nbsp;	Active Listening</br>
+				  3.&nbsp;&nbsp;	Adaptability</br>
+				 </p>
+            </div>
+          </div>
+            </div>
+      </div>
+  </section>
+<div></BR></BR></BR>
+				<section id="skills" class="full-height px-lg-5">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="text-center mb-5">
+									<div class="type-css1 " data-aos="fade-up">
+										<h2 class="text-brand type-css2 "><span style="color:white;"></span>SKILLS </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row" data-aos="fade-up" data-aos-delay="400">
+							<div class="col-md-6">
+								<h4 class="text-brand my-4 line-custom">WEB-DESIGNING SKILLS</h4>
+								<div class="row gy-4">
+									<div class="col-12">
+										<div>
+											<div>
+												<h5 class="skill-name" >HTML</h5>
+												<!-- <h5 class="percentage-num">100% </h5> -->
+											</div>
+											
+											<div class="progress" >
+											  <div class="progress-bar text-white fw-bolder " role="progressbar" style="width: 100%;background: cyan;font-size: 16px; ">100%</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12">
+										<div>
+											<div>
+												<h5 class="skill-name" >CSS</h5>
+												<!-- <h5 class="percentage-num">90%</h5> -->
+											</div>
+											<div class="progress">
+												<div class="progress-bar text-white fw-bolder " role="progressbar" style="width: 90%;background: cyan;;font-size: 16px;" >90%</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12">
+										<div>
+											<div>
+												<h5 class="skill-name">BOOTSTRAP5 </h5>
+												<!-- <h5 class="percentage-num">60%</h5> -->
+											</div>
+											
+											<div class="progress">
+												 <div class="progress-bar text-white fw-bolder" role="progressbar" style="width: 60%;background: cyan;font-size: 16px;" >60%</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<h4 class="text-brand my-4 line-custom">PROGRAMMING SKILLS</h4>
+								<div class="row gy-4">
+									<div class="col-12">
+										<div>
+											<div>
+												<h5 class="skill-name">C </h5>
+												<!-- <h5 class="percentage-num">75%</h5> -->
+											</div>
+											
+											<div class="progress">
+											  <div class="progress-bar text-white fw-bolder" role="progressbar" style="width: 75%;background: cyan;font-size: 16px;" >75%</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12">
+										<div>
+											<div>
+												<h5 class="skill-name">PYTHON</h5>
+												<!-- <h5 class="percentage-num">45%</h5> -->
+											</div>
+											
+											<div class="progress">
+												<div class="progress-bar text-white fw-bolder" role="progressbar" style="width: 45%;background: cyan;font-size: 16px;">45%</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12">
+										<div>
+											<div>
+												<h5 class="skill-name">MySQL </h5>
+												<!-- <h5 class="percentage-num">65%</h5> -->
+											</div>
+											<div class="progress">
+												 <div class="progress-bar text-white fw-bolder" role="progressbar" style="width: 65%;background: cyan;;font-size: 16px;" >65%</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<h5 class="text-brand my-4 my-4 line-custom">COMMUNICATION SKILLS  </h5>
+								<div class="row gy-5">
+									<div class="col-12">
+										<div>
+											<div>
+												
+												<!-- <h5 class="percentage-num">60%</h5> -->
+											</div>
+											<div class="progress ">
+											  <div class="progress-bar  text-white fw-bolder " role="progressbar" style="width: 60%;background: cyan; font-size: 16px; ">60%</div>
+											</div>
+										</div>
+									</div>
+									
+						</div>
+					</div></BR></BR></BR></BR></BR></BR>	
+				</section>
+				</div>
+  <!--=========================================================gallery=========================================================-->
+  <section class="gallery-wrapper " id="Gallary">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-4"> 
+          <span class="subtitle">See my pictures</span>
+          <h1 class="sub-title">My<span> Gallary</span></h1>
+         </p>
+        </div>
+      </div>
+
+      <div class="row "align="center" 	>
+        <div class="col-lg-4 mt-sm-5 col-sm-12" >
+          <div class="card "style="border-color: black;" >
+            
+            <div class="card-body text-md-start text-center" style=" border-color: black;background-image: url(https://i.gifer.com/HKVW.gif) ">
+              <img src="Images/image3.jpeg"  style="width:100%; height: 100%;">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-sm-5 col-sm-12 ">
+          <div class="card" style="border-color: black;">
+            
+            <div class="card-body text-md-start text-center" style=" background-image: url(https://i.gifer.com/HKVW.gif) ">
+              <img src="Images/image4.jpeg" style="width:100%; height: 100%;">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-sm-5 col-sm-12" >
+          <div class="card" style="border-color: black;">
+            
+            <div class="card-body text-md-start text-center" style=" background-image: url(https://i.gifer.com/HKVW.gif)" >
+              <img src="Images/image5.jpeg" style="width:100%; height: 100%;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--========================================================================contact=======================================================-->
+  <section class="contact-wrapper">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+           <span class="subtitle" >My complete project</span>
+        <h2>Hire me</h2>
+        <div class="row call-details mb-4">
+          <label class="col-sm-3 col-lg-4">Call Us Directly</label>
+          <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+            <a href="">+91 9216430065</a>
+          </div>
+          <label class="col-sm-3 col-lg-4">Contact Email:</label>
+          <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+            <a href="">Lakshaykumawat10@gmail.com</a>
+          </div>
+        </div>
+        <form>
+          <div class="mb-4">
+            <input type="text" class="form-control" name="name" placeholder="your name..." autocomplete="off">
+          </div>
+          <div class="mb-4">
+            <input type="number" class="form-control" name="name" placeholder="your phone..." autocomplete="off">
+          </div>
+          <div class="mb-4">
+            <input type="email" class="form-control" name="name" placeholder="your email..." autocomplete="off">
+          </div>
+          <div class="mb-4">
+           <textarea cols="40" rows="4" class="form-control" id="message" placeholder="writer a message.." autocomplete="off"></textarea>
+          </div>
+          <button type="submit" class="main-btn">submit</button>
+        </form>
+        </div>
+        <div class="col-lg-6 order1 mb-4 order-lg-1 mb-lg-0">
+          <img src="Images/GIF1.gif" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--========================================================================footer========================================================-->
+  <section id="Contact" class="footer-wrapper mt-3 mt-md-0" style="background-image: url(https://i.gifer.com/HKVW.gif)">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4 col-md-6 text-center text-md-start">
+          <div class="footer-logo mb-3 mb-md-0">
+            
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <ul class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center social-icon mb-md-0">
+            <li><a href="https://www.instagram.com/kumawatlakshay20060/"><i class="bi bi-instagram">&nbsp;</i></a></li>
+            <li><a href="#"><i class="bi bi-facebook">&nbsp;</i></a></li>
+            <li><a href="#"><i class="bi bi-whatsapp">&nbsp;</i></a></li>
+            <li><a href="#"><i class="bi bi-twitter">&nbsp;</i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+            <p class="mb-0">Copyright @ 2024<a href="#">lakshay Kumawat</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="main.js"></script>
+</body>
+</html>
